@@ -5,13 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.0"
+    "mocha": "^8.2.0",
+    "mocha-lcov-reporter": "^1.3.0"
   }
 }
