@@ -10,7 +10,7 @@ describe("Is object array-like and is value an object", () => {
     });
 
     it("object is string", () => {
-        expect(isArrayLike('abc')).to.equal(false);
+        expect(isArrayLikeObject('abc')).to.equal(false);
     });
 
     it("object is function", () => {
