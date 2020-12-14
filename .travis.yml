@@ -12,7 +12,5 @@ install:
   - npm ci
 
 script:
-  - npm run test:coveralls
+  - npm test
   
-after_failure:
-  - cat /home/travis/.npm/_logs/2020*
