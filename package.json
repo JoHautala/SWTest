@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "test": "coveralls"    
+    "test:coveralls"    
   },
   "author": "",
   "license": "MIT",
