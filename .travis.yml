@@ -13,3 +13,6 @@ install:
 
 script:
   - npm run test:coveralls
+  
+after_failure:
+  - cat /home/travis/.npm/_logs/2020*
