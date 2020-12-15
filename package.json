@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha",
-    "test:coveralls"    
+    "test": "mocha"
+    //"coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"    
   },
   "author": "",
   "license": "MIT",
